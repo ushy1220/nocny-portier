@@ -147,7 +147,7 @@ ul {
   margin-top: 15px;
 }
 
-.hooker {
+.hooker1, .hooker2, .hooker3, .hooker4, .hooker5, .hooker6, .hooker7, .hooker8, .hooker9 {
   display: inline-block;
   border: 1px solid;
   height: 50px;
@@ -169,7 +169,7 @@ ul {
   border-radius: 5px;
 }
 
-.hooker:hover {
+.hooker1:hover, .hooker2:hover, .hooker3:hover, .hooker4:hover, .hooker5:hover, .hooker6:hover, .hooker7:hover, .hooker8:hover, .hooker9:hover{
   cursor: pointer;
   box-shadow: 0 0 0.5em white;
 }
@@ -191,7 +191,7 @@ ul {
   box-shadow: 0 0 0.5em white;
 }
 
-.red {
+.hooker1-red {
   background-color: red;
   display: inline-block;
   border: 1px solid;
@@ -200,6 +200,17 @@ ul {
   border-radius: 50%;
   margin-top: 0;
   margin-right: 0;
+}
+
+.table7-red {
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 0;
+  border: 1px solid;
+  border-radius: 10px;
+  height: 100px;
+  width: 200px;
+  background: red;
 }
 
 footer{
