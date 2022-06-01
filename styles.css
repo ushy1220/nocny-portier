@@ -191,6 +191,17 @@ ul {
   box-shadow: 0 0 0.5em white;
 }
 
+.red {
+  background-color: red;
+  display: inline-block;
+  border: 1px solid;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 0;
+  margin-right: 0;
+}
+
 footer{
   height: 50px;
 }
