@@ -1,11 +1,12 @@
 'use strict'
 
 let hooker = document.querySelector('.hooker1');
-var table = document.getElementsById('table7');
+var table = document.getElementById('table7');
 
 hooker.addEventListener("click", function(){
-    document.getElementById('hooker1').className = "hooker1-red";
-    if (className == "hooker1-red"){
-    document.getElementById('hooker1').className = "hooker1";
-    }
+    document.getElementById('hooker1').className.add("hooker1-red");
+})
+
+table = addEventListener('click', function(){
+    document.getElementById('table7').className = "table7-red";
 })
