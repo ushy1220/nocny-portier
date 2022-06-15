@@ -1,12 +1,23 @@
 'use strict'
 
-let hooker = document.querySelector('.hooker1');
-var table = document.getElementById('table7');
+let hookers = document.querySelectorAll('.hooker');
+let tables = document.querySelectorAll('.table');
 
-hooker.addEventListener("click", function(){
-    document.getElementById('hooker1').className.add("hooker1-red");
-})
+hookers.forEach((item) => 
+    item.addEventListener("click", function(){
+        if(this.className == "hooker1-red"){
+            this.className = "hooker";
+        } else {
+            this.className = "hooker1-red";
+        }
+        
+    }));
 
-table = addEventListener('click', function(){
-    document.getElementById('table7').className = "table7-red";
-})
+tables.forEach((item) =>
+    item.addEventListener("click", function(){
+        if(this.style.backgroundColor == "red"){
+            this.style.backgroundColor = "green";
+        } else {
+            this.style.backgroundColor = "red";
+        }
+    }));

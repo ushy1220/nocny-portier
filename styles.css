@@ -147,7 +147,7 @@ ul {
   margin-top: 15px;
 }
 
-.hooker1, .hooker2, .hooker3, .hooker4, .hooker5, .hooker6, .hooker7, .hooker8, .hooker9 {
+.hooker {
   display: inline-block;
   border: 1px solid;
   height: 50px;
@@ -169,7 +169,7 @@ ul {
   border-radius: 5px;
 }
 
-.hooker1:hover, .hooker2:hover, .hooker3:hover, .hooker4:hover, .hooker5:hover, .hooker6:hover, .hooker7:hover, .hooker8:hover, .hooker9:hover{
+.hooker:hover{
   cursor: pointer;
   box-shadow: 0 0 0.5em white;
 }
