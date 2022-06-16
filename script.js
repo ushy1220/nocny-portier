@@ -2,6 +2,9 @@
 
 let hookers = document.querySelectorAll('.hooker');
 let tables = document.querySelectorAll('.table');
+let zmiana = document.querySelectorAll('.btn');
+
+const downstairs = document.querySelectorAll('.downstairs');
 
 hookers.forEach((item) => 
     item.addEventListener("click", function(){
@@ -21,3 +24,11 @@ tables.forEach((item) =>
             this.style.backgroundColor = "red";
         }
     }));
+
+document.querySelector('.btn').addEventListener("click", function() {
+    if(document.querySelector('.dowstairs').style.display == "none"){
+        document.querySelector('.downstairs').style.display = "flex";
+    } else {
+        document.querySelector('.downstairs').style.display = "none";
+    }
+});
