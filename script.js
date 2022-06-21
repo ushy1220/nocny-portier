@@ -25,7 +25,8 @@ tables.forEach((item) =>
         }
     }));
 
-document.querySelector('.btn').addEventListener("click", function() {
+document.getElementById('.btn').addEventListener("click", function() {
+    console.log("button was clicked");
     if(document.querySelector('.dowstairs').style.display == "none"){
         document.querySelector('.downstairs').style.display = "flex";
     } else {
