@@ -41,9 +41,9 @@ img {
 
 .btn{
   position: absolute;
-  float: right;
+  top: 0;
+  right: 25px;
   margin-top: 25px;
-  margin-left: 1100px;
   height: 100px;
   width: 100px;
   font-weight: bold;
@@ -166,10 +166,19 @@ i{
   margin-bottom: 0;
 }
 
-ul {
+.down {
   display: inline-block;
-  margin-top: 15px;
+  margin-top: auto;
   list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 75px;
+}
+
+.up {
+  display: inline-block;
+  margin-top: auto;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .hooker {
@@ -202,7 +211,7 @@ ul {
   display: block;
   position: static;
   height: 300px;
-  width: 100px;
+  width: 150px;
   background-color: #22a6b3;
   margin-top: auto;
   border-radius: 20px;
@@ -249,7 +258,7 @@ ul {
 }
 
 .downstairs{
-  display: block;
+  display: none;
   position: absolute;
   border: 1px solid gold;
   border-radius: 10px;
@@ -274,6 +283,8 @@ ul {
   width: 40%;
   height: 70%;
   clear: left;
+  justify-content: space-around;
+  padding-bottom: 50px;
 }
 
 .down-right{

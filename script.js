@@ -27,11 +27,11 @@ tables.forEach((item) =>
 
 document.getElementById('btn').addEventListener("click", function() {
     console.log("button was clicked");
-    if(document.querySelector('.downstairs').style.display == "none"){
-        document.querySelector('.downstairs').style.display = "block";
-        document.querySelector('.first-floor').style.display = "none";
-    } else {
+    if(document.querySelector('.downstairs').style.display == "block"){
         document.querySelector('.downstairs').style.display = "none";
         document.querySelector('.first-floor').style.display = "block";
+    } else {
+        document.querySelector('.downstairs').style.display = "block";
+        document.querySelector('.first-floor').style.display = "none";
     }
 });
