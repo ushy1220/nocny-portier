@@ -283,6 +283,8 @@ i{
   width: 19%;
   height: 50%;
   float: right;
+  border-bottom: solid 4px #046c75;
+  border-radius: 2px;
 }
 
 .sweep{
