@@ -167,13 +167,12 @@ i{
 }
 
 ul {
-  display: inline;  
-  float: left;
+  display: inline-block;
   margin-top: 15px;
+  list-style-type: none;
 }
 
 .hooker {
-  display: inline-block;
   border: 1px solid;
   height: 50px;
   width: 50px;
@@ -204,8 +203,9 @@ ul {
   position: static;
   height: 300px;
   width: 100px;
-  color: #22a6b3;
-
+  background-color: #22a6b3;
+  margin-top: auto;
+  border-radius: 20px;
 }
 
 .one {
@@ -269,10 +269,11 @@ ul {
 }
 
 .down-left-bottom{
+  display: flex;
   float: left;
   width: 40%;
   height: 70%;
-  clear: both;
+  clear: left;
 }
 
 .down-right{
