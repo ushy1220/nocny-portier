@@ -8,12 +8,12 @@ const downstairs = document.querySelectorAll('.downstairs');
 
 hookers.forEach((item) => 
     item.addEventListener("click", function(){
-        if(this.className == "hooker1-red"){
-            this.className = "hooker";
+        if(this.style.backgroundColor == "red"){
+            this.style.backgroundColor = "blue";
         } else {
-            this.className = "hooker1-red";
+            this.style.backgroundColor = "red";
         }
-        
+       
     }));
 
 tables.forEach((item) =>
