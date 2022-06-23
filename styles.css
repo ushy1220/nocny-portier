@@ -160,7 +160,7 @@ i{
 
 .road {
   float: right;
-  height: 140px;
+  height: 150px;
   width: 600px;
   border-radius: 10px;
   margin-bottom: 0;
@@ -176,9 +176,10 @@ i{
 
 .up {
   display: inline-block;
-  margin-top: auto;
+  margin-top: 20px;
+  margin-bottom: 0;
   list-style-type: none;
-  padding-left: 0;
+  padding-left: 50px;
 }
 
 .hooker {
@@ -193,10 +194,10 @@ i{
 
 .bar {
   height: 490px;
-  width: 310px;
+  width: 300px;
   background: gold;
   float: right;
-  margin-top: 18px;
+  margin-top: 0;
   margin-right: 5px;
   margin-left: 0;
   border-radius: 5px;
@@ -214,7 +215,7 @@ i{
   width: 150px;
   background-color: #22a6b3;
   margin-top: auto;
-  border-radius: 20px;
+  border-radius: 50px;
 }
 
 .one {
@@ -274,6 +275,25 @@ i{
   clear: left;
   justify-content: space-around;
   padding-bottom: 50px;
+}
+
+.stairs{
+  display: inline-block;
+  margin: auto auto;
+  width: 19%;
+  height: 50%;
+  float: right;
+}
+
+.sweep{
+  margin-left: 50px;
+  margin-top: 140%;
+  margin-bottom: 0;
+}
+
+.sweep li{
+  display: inline-block;
+  bottom: 0;
 }
 
 .down-right{
